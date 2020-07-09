@@ -1,0 +1,25 @@
+{
+  "name": "recaps-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "recaps-js": "index.js"
+  },
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "node-html-parser": "^1.2.20"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "prettier": "^2.0.5"
+  }
+}
