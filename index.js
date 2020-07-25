@@ -60,9 +60,6 @@ fetch(`${BASE_URL}${ROOT}`)
         const actions = parags[getRandomInt(max)]
         const result = parags[getRandomInt(max)]
 
-        return { objectif, actions, result }
-    })
-    .then(recaps => {
-        return `Objectifs: ${recaps.objectif}\nActions: ${recaps.actions}\nResultats: ${recaps.result}`
+        return { objectif, actions, result, difficulty: 'aucune' }
     })
     .then(console.log)
