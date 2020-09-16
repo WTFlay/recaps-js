@@ -15,11 +15,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "node-html-parser": "^1.2.20"
   },
   "devDependencies": {
-    "eslint": "^7.4.0",
-    "prettier": "^2.0.5"
+    "eslint": "^7.9.0",
+    "prettier": "^2.1.2"
   }
 }
